@@ -8,7 +8,7 @@
     "url": "https://github.com/TIGNUM/eslint-config-tignum.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@tignum:registry": "https://npm.pkg.github.com"
   },
   "author": "m.rosero@tignum.com",
   "license": "MIT",
