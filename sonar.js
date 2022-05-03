@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './rules/vue'
+    './rules/sonar',
   ].map(require.resolve),
   rules: {}
 };

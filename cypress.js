@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './rules/vue'
+    './rules/cypress',
   ].map(require.resolve),
   rules: {}
 };

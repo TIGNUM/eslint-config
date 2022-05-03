@@ -13,16 +13,14 @@
   "author": "m.rosero@tignum.com",
   "license": "MIT",
   "homepage": "https://github.com/TIGNUM/eslint-config-tignum#readme",
-  "devDependencies": {
-    // "eslint-plugin-sonarjs": "^0.13.0",
-    // "eslint-plugin-cypress":'2.2.2'
-  },
   "peerDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^8.6.0",
     "prettier": "^2.6.2",
-    "vue-eslint-parser": "^8.3.0"
+    "vue-eslint-parser": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0"
   }
 }
