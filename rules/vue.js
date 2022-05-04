@@ -5,15 +5,15 @@ module.exports = {
     node: true
   },
   parser: 'vue-eslint-parser',
-  plugins: ['import', "@typescript-eslint", "prettier"],
+  plugins: ['import', '@typescript-eslint', 'prettier'],
   parserOptions: {
-    parser: "@typescript-eslint/parser",
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2022,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
       modules: true
-    },
+    }
   },
   globals: {
     defineProps: 'readonly',
@@ -34,9 +34,8 @@ module.exports = {
   },
   ignorePatterns: ['package.json', 'dist/'],
   extends: [
-    'airbnb',
     'eslint:recommended',
-    "@vue/typescript/recommended",
+    'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
     'prettier',
     'plugin:import/errors'
