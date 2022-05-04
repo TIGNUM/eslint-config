@@ -4,12 +4,13 @@
   "description": "eslint config based in eslint-config-airbnb",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/TIGNUM/eslint-config-tignum"
+    "type": "git",
+    "url": "https://github.com/TIGNUM/eslint-config"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "author": "m.rosero@tignum.com",
   "license": "MIT",
-  "homepage": "https://github.com/TIGNUM/eslint-config-tignum#readme"
+  "homepage": "https://github.com/TIGNUM/eslint-config#readme"
 }
