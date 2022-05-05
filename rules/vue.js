@@ -42,8 +42,10 @@ module.exports = {
   ],
   rules: {
     'vue/no-v-html': 0,
+    'no-unused-vars': 0,
     'vue/multi-word-component-names': 0,
     '@typescript-eslint/no-explicit-any': 0,
-    '@typescript-eslint/ban-ts-comment': 0
+    '@typescript-eslint/ban-ts-comment': 0,
+    '@typescript-eslint/no-unused-vars': 0
   }
 }
