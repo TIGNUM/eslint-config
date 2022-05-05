@@ -37,10 +37,13 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
+    'plugin:import/typescript',
     'prettier',
     'plugin:import/errors'
   ],
   rules: {
-    'vue/no-v-html': 0
+    'vue/no-v-html': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/ban-ts-comment': 0
   }
 }

@@ -48,10 +48,7 @@ all the es-rules that are effecting the code formating and interfere with the pr
 
 ### How to update package
 
-1. `git commit -am …`
-2. `npm version patch`
-3. `git push`
-4. `npm publish`
+1. `npm run publish-pkg`
 
 ### Additional notes
 

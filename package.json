@@ -23,6 +23,8 @@
     "prettier": "^2.6.2",
     "vue-eslint-parser": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0"
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.7.1"
   }
 }
