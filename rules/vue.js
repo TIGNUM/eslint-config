@@ -35,10 +35,11 @@ module.exports = {
   ignorePatterns: ['package.json', 'dist/'],
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'plugin:vue/vue3-recommended',
-    'prettier',
-    'plugin:import/typescript'
+    'plugin:import/typescript',
+    'plugin:import/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier'
   ],
   rules: {
     'vue/no-v-html': 0,
