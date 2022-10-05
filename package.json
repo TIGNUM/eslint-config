@@ -12,7 +12,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "author": "m.rosero@tignum.com",
+  "author": "tignum.com",
   "license": "MIT",
   "homepage": "https://github.com/TIGNUM/eslint-config#readme",
   "peerDependencies": {
