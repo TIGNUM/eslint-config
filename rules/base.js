@@ -1,15 +1,10 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    node: true
-  },
   plugins: ['import', 'prettier'],
   settings: {
     'import/resolver': {
       alias: {
         map: [['@', './src']],
-        extensions: ['.js', '.vue', '.yml', '.scss', '.ts']
+        extensions: ['.js', '.vue', '.yml', '.scss', '.ts', '.jsx']
       },
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
