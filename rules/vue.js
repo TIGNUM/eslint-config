@@ -1,6 +1,12 @@
 module.exports = {
   parser: 'vue-eslint-parser',
   extends: ['plugin:vue/vue3-recommended'],
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    globalThis: 'readonly'
+  },
   rules: {
     'vue/no-v-html': 0,
     'vue/multi-word-component-names': 0,

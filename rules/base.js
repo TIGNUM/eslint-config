@@ -4,22 +4,7 @@ module.exports = {
     browser: true,
     node: true
   },
-  plugins: ['import', '@typescript-eslint', 'prettier'],
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
-    ecmaVersion: 2022,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-      modules: true
-    }
-  },
-  globals: {
-    defineProps: 'readonly',
-    defineEmits: 'readonly',
-    defineExpose: 'readonly',
-    globalThis: 'readonly'
-  },
+  plugins: ['import', 'prettier'],
   settings: {
     'import/resolver': {
       alias: {
