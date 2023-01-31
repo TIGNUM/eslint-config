@@ -1,6 +1,4 @@
 module.exports = {
-  extends: [
-    './rules/vue'
-  ].map(require.resolve),
+  extends: ['./rules/base'].map(require.resolve),
   rules: {}
-};
+}
