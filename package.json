@@ -1,6 +1,6 @@
 {
   "name": "@tignum/eslint-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "index.js",
   "scripts": {
     "publish-pkg": "npm version patch && git push && npm publish"
