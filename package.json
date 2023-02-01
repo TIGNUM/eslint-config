@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "main": "index.js",
   "scripts": {
-    "publish-pkg": "npm version patch && git push && npm publish"
+    "publish-pkg": "npm version patch && git push --follow-tags origin test && npm publish"
   },
   "repository": {
     "type": "git",
