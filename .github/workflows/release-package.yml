@@ -1,11 +1,12 @@
 name: eslint-config-tignum
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - 'test'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -13,7 +14,12 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm publish
+          scope: '@tignum'
+      - name: Configure committer
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<engineering@tignum.com>"
+      - run: echo "registry=https://npm.pkg.github.com/@tignum" >> .npmrc
+      - run: npm run publish-pkg
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
