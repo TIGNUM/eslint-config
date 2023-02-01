@@ -13,7 +13,8 @@ module.exports = {
       modules: true
     }
   },
-  extends: ['plugin:import/typescript', 'plugin:@typescript-eslint/recommended'],
+
+  extends: ['plugin:@typescript-eslint/recommended'],
   rules: {
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/ban-ts-comment': 0,
