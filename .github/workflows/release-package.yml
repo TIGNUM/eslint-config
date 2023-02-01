@@ -3,7 +3,7 @@ name: eslint-config-tignum
 on:
   push:
     branches:
-      - 'test'
+      - 'main'
 
 jobs:
   release:
