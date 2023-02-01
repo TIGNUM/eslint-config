@@ -1,0 +1,6 @@
+# Auth for private GitHub registry modules
+@tignum:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${NPM_AUTH_TOKEN}
+always-auth=true
+auto-install-peers=true
+strict-peer-dependencies=false
