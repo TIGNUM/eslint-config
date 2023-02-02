@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "main": "index.js",
   "scripts": {
-    "publish-pkg": "npm version minor && npm publish && git push origin main --follow-tags"
+    "publish-pkg": "npm version minor && npm publish && git push origin releases --follow-tags"
   },
   "repository": {
     "type": "git",
