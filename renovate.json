@@ -1,0 +1,16 @@
+{
+  "timezone": "Europe/Berlin",
+  "schedule": "before 6am every weekday",
+  "extends": ["config:base"],
+  "labels": ["dependencies", "npm"],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcFMA/xDdHCJBTolARAAgM/rtIj8VOxfSYSMT4Ee+LMJz7fDf908VRDjbqA1oIchVR5v9L2eh4WgPhZju42zjUgcMFTX0RWsqSaZ2LscO63OgqKi2gxnZZIs+TT3cGqeAAaXSmUsKQRiZSNhgI/bmHwKWhT2yJANw4snYur+H8gTQHtxWIZXFe4wFMMynmXiD+w/d8LubhRBUvgBNJNJAJ3IlijfKrqVGqiafWOpeMFrr7RvoKURLHByzC22JEFEDuFar+NezQdcZlvJSKcNsFvR6JP6tSX4/m2i57WcH8mfRa6v/KDySUK/Pjbk9rFBqk/HVCtp90AXI6orGSlCn/5yOXelUPyziUtP9uCaizHdbSilD5xproqHCtC7bS1po/0U1OkUZ4ea5Q/u6NU2i7thwZd2tg6dvI5WXBGswiV+F6AB7EQTNIt7NMIQZbICDnOv7hs3nn43P2xb4WC+MRHF/uWCiCwG5f1U3L14o5lEKiUX5gqyQZDfD836vQWaRzn202VZqEZkMX7Gr2OjYW0yE0MGoFCNUenzdjVBNaW4ze3Vw+xALP77xMv6w5/bZ6jQi9LNDT7ty+k3kiweDMSLBZyTtzXZkAn816W2ktoHrBetO84zIfjsookNfBU1ld2NqtGlZ0XdsP4eU96JUVO9ZH3ewVOjakivcglfgaPcnSSmsQ+Rc5LtwGP1OJzSdQF9llLyYIGUr/DCTl1big01J5xvwE9MUGkBzawHZ034UXcTfvaAMePcFlg8CmaCitg0OA/f6pc/L12iLRWsj0CNfQvDgb+itaFOMfV+9yMbl3rsamXeaiTWLS6/h3El5a5mibae7WSPQWzY0XOibeOpUWQkVg"
+      }
+    }
+  ],
+  "npmrc": "@tignum:registry=https://npm.pkg.github.com"
+}
