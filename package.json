@@ -1,9 +1,9 @@
 {
   "name": "@tignum/eslint-config",
-  "version": "0.1.0",
+  "version": "0.0.11",
   "main": "index.js",
   "scripts": {
-    "publish-pkg": "npm version minor && npm publish"
+    "publish-pkg": "npm version minor && npm publish && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
