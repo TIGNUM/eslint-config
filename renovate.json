@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "timezone": "Europe/Berlin",
+  "schedule": "before 6am every weekday",
+  "labels": ["dependencies", "npm"]
+}
