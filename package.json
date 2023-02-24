@@ -28,6 +28,6 @@
     "prettier": "2.8.4",
     "vue-eslint-parser": "9.1.0",
     "prettier-plugin-tailwindcss": "0.2.3",
-    "eslint-plugin-tailwindcss": "3.8.3"
+    "eslint-plugin-tailwindcss": "3.9.0"
   }
 }
