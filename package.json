@@ -16,8 +16,8 @@
   "license": "MIT",
   "homepage": "https://github.com/TIGNUM/eslint-config#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.59.6",
-    "@typescript-eslint/parser": "5.59.6",
+    "@typescript-eslint/eslint-plugin": "5.59.8",
+    "@typescript-eslint/parser": "5.59.8",
     "eslint": "8.41.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-alias": "1.1.2",
