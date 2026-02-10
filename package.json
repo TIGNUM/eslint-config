@@ -25,7 +25,7 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-sonarjs": "0.19.0",
     "eslint-plugin-vue": "9.15.1",
-    "prettier": "2.8.8",
+    "prettier": "3.8.1",
     "vue-eslint-parser": "9.3.1",
     "prettier-plugin-tailwindcss": "0.3.0",
     "eslint-plugin-tailwindcss": "3.13.0"
