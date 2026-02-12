@@ -54,3 +54,4 @@ all the es-rules that are effecting the code formating and interfere with the pr
 
 - Make sure you add any additional rules and constants to `.eslintrc` that are specific to the project
 - Make sure an `.eslintignore` is in place so that you target your eslint where needed
+- **Note on Tailwind CSS**: `eslint-plugin-tailwindcss` was removed due to incompatibility with Tailwind CSS v4. The package still includes `prettier-plugin-tailwindcss` for class ordering. If you need ESLint rules for Tailwind, consider using the beta version `eslint-plugin-tailwindcss@4.0.0-beta.0` in your project, though it may have issues.
